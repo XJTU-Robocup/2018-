@@ -1,0 +1,13 @@
+一、代码更新操作
+1、在启智ROS电脑中，将~/catkin_ws/src目录下的wpb_home、waterplus_map_tools和wpb_home_apps三个文件夹移动到catkin_ws以外的地方作为备份。
+2、将wpb_home_20180410.tar.gz、waterplus_map_tools_20180410.tar.gz和wpb_home_apps_20180411.tar.gz三个压缩文件拷贝到~/catkin_ws/src目录下。
+3、分别鼠标右键点击上述三个压缩文件，选择“提取到此处”，解压缩。
+4、开启命令终端，进入~/catkin_ws/使用catkin_make重新编译源代码。
+
+上述代码在github上也进行了更新，除了上述方法，也可以使用git clone下载新代码：
+git clone https://github.com/6-robot/wpb_home.git
+git clone https://github.com/6-robot/waterplus_map_tools.git
+wpb_home_apps稍后再开源到github上
+
+二、操作说明
+《启智ROS版_开发手册_1.0.7》最后一章对新的比赛程序的操作和注意事项进行了说明。
